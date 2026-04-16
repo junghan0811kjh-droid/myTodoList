@@ -27,18 +27,22 @@ public class TodoView {
                     addTodo();
                     break;
                 case 2:
+                    // 완료
                     updateTodo();
                     break;
                 case 3:
+                    // 완료
                     deleteTodo();
                     break;
                 case 4:
                     completeTodo();
                     break;
                 case 5:
+                    // 완료
                     printByDate();
                     break;
                 case 6:
+                    // 완료
                     printAll();
                     break;
                 case 7:
@@ -135,6 +139,7 @@ public class TodoView {
         int index = sc.nextInt() - 1;
 
         // todoService.completeTodo 호출
+        todoService.completeTodo(date, index);
         System.out.println("완료 처리 완료!");
     }
 
