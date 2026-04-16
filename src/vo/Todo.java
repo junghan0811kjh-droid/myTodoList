@@ -14,25 +14,15 @@ public class Todo {
         this.completed = completed;
     }
 
-    public String getTime() {
-        return time;
-    }
+    public String getTime() {return time;}
 
-    public void setTime(String time) {
-        this.time = time;
-    }
+    public void setTime(String time) {this.time = time;}
 
-    public String getTask() {
-        return task;
-    }
+    public String getTask() {return task;}
 
-    public void setTask(String task) {
-        this.task = task;
-    }
+    public void setTask(String task) {this.task = task;}
 
-    public boolean isCompleted() {
-        return completed;
-    }
+    public boolean isCompleted() {return completed;}
 
     public void setCompleted(boolean completed) {
         this.completed = completed;
